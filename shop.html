@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lee Florists - Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fff0f5; /* soft baby pink background */
+      color: #333;
+    }
+    header {
+      background-color: #ffc0cb; /* baby pink bar */
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header .logo {
+      font-weight: bold;
+      font-size: 22px;
+      color: #fff;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #f8bec8;
+    }
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+    .hero h1 {
+      color: #f8bec8;
+      margin-bottom: 10px;
+    }
+    .shop-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    .product-card {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      padding: 15px;
+    }
+    .product-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .product-card h3 {
+      margin: 10px 0;
+      color: #333;
+    }
+    .product-card p {
+      color: #666;
+      font-size: 14px;
+    }
+    .product-card button {
+      background-color: #f8bec8;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .product-card button:hover {
+      background-color: #ff85c1;
+    }
+    footer {
+      background-color: #f8bec8;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">FLOWERS IMA</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="shop.html">Shop</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Shop Selected Bouquets</h1>
+    <p>Choose from our handpicked floral arrangements, perfect for every occasion.</p>
+  </section>
+
+  <section class="shop-container">
+    <div class="product-card">
+      <img src="images/roses.jpg" alt="Romantic Roses">
+      <h3>Romantic Roses</h3>
+      <p>P250 — Perfect for anniversaries</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="images/lilies.jpg" alt="Elegant Lilies">
+      <h3>Elegant Lilies</h3>
+      <p>P300 — A touch of grace</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="images/mixed.jpg" alt="Mixed Bouquet">
+      <h3>Mixed Bouquet</h3>
+      <p>P200 — Brighten any occasion</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="images/sunflowers.jpg" alt="Sunny Sunflowers">
+      <h3>Sunny Sunflowers</h3>
+      <p>P180 — Joy and warmth</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="images/wedding.jpg" alt="Wedding Bouquet">
+      <h3>Wedding Bouquet</h3>
+      <p>P500 — Celebrate love</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="images/sympathy.jpg" alt="Sympathy Flowers">
+      <h3>Sympathy Flowers</h3>
+      <p>P220 — Gentle comfort</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Lee Florists | Secure Payments: Orange Money, MyZaka, Bank EFT, Visa, Cash on Delivery</p>
+  </footer>
+
+</body>
+</html>

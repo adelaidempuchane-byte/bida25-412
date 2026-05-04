@@ -1,0 +1,297 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #f8cde0;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+  margin-left: 1em;
+  filter: drop-shadow(0 0 2px rgba(0,0,0,0.2));
+}
+
+nav a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f8cde0;
+  text-align: center;
+  padding: 2em;
+}
+
+.hero h2 {
+  color: white;
+  font-size: 2em;
+}
+
+.hero button {
+  background-color: black;
+  color: white;
+  padding: 0.7em 1.5em;
+  border: none;
+  cursor: pointer;
+}
+
+/* Featured Bouquets */
+.featured {
+  padding: 2em;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 1em;
+  width: 200px;
+  background-color: #fff;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+.product button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+/* Payment Section */
+.payments {
+  padding: 2em;
+  background-color: #fff;
+  text-align: center;
+}
+
+.payment-methods {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+
+.method {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  background-color: #f8cde0;
+  padding: 0.7em 1em;
+  border-radius: 5px;
+  width: 300px;
+  justify-content: flex-start;
+}
+
+.method img {
+  height: 30px;
+  width: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #f8cde0;
+  text-align: center;
+  padding: 1em;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+/* ---------- General ---------- */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #f8cde0;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 60px;
+  width: auto;
+  margin-left: 1em;
+  filter: drop-shadow(0 0 2px rgba(0,0,0,0.2));
+}
+
+nav a {
+  margin: 0 1em;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f8cde0;
+  text-align: center;
+  padding: 2em;
+}
+
+.hero h1, .hero h2 {
+  color: white;
+  font-size: 2em;
+}
+
+.hero p {
+  color: black;
+  margin-top: 0.5em;
+}
+
+.hero button {
+  background-color: black;
+  color: white;
+  padding: 0.7em 1.5em;
+  border: none;
+  cursor: pointer;
+}
+
+/* ---------- Shop Page ---------- */
+.shop-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2em;
+  padding: 2em;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 1em;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.product-card h3 {
+  margin: 0.5em 0;
+}
+
+.product-card button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.product-card button:hover {
+  background-color: #333;
+}
+
+/* ---------- Gallery Page ---------- */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2em;
+  padding: 2em;
+}
+
+.gallery-item {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.gallery-item p {
+  padding: 0.5em;
+  background-color: #f8cde0;
+  font-weight: bold;
+}
+
+/* ---------- Contact Page ---------- */
+.contact-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 2em;
+  flex-wrap: wrap;
+}
+
+.contact-form, .contact-info {
+  width: 45%;
+  min-width: 300px;
+  background: #fff;
+  padding: 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.7em 1.5em;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #333;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background-color: #f8cde0;
+  text-align: center;
+  padding: 1em;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
