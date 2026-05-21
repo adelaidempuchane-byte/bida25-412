@@ -224,7 +224,7 @@ nav a {
 /* ---------- Gallery Page ---------- */
 .gallery-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* wider columns */
   gap: 2em;
   padding: 2em;
 }
@@ -239,12 +239,13 @@ nav a {
 
 .gallery-item img {
   width: 100%;
-  height: 200px;
-  object-fit: cover;
+  height: 500px;      
+  object-fit: cover;    
+  border-bottom: 4px solid #f8cde0; 
 }
 
 .gallery-item p {
-  padding: 0.5em;
+  padding: 1em;
   background-color: #f8cde0;
   font-weight: bold;
 }
@@ -286,7 +287,7 @@ nav a {
   background-color: #333;
 }
 
-/* ---------- Footer ---------- */
+ Footer 
 footer {
   background-color: #f8cde0;
   text-align: center;
